@@ -28,7 +28,7 @@
 
 // Font.
 	$font: (
-		family:				('Open Sans', Helvetica, sans-serif),
+		family:				('Century Gothic', Helvetica, sans-serif),
 		family-fixed:		('Courier New', monospace),
 		weight:				400,
 		weight-bold:		600,
@@ -40,14 +40,14 @@
   $grey: #e8e7e5;
   $yellow: #f0e0a2;
   $red: #f49890;
-  $blue: #6393b7;
+  $blue: #0F494E;
   $blue2: #d4f0fc;
   $green: #68876f;
   $grey: #777777;
 
 // Palette.
 	$palette: (
-		bg:					#2e3842,
+		bg:					#171F17,
 		fg:					#fff,
 		fg-bold:			#fff,
 		fg-light:			rgba(255,255,255,0.5),
@@ -57,10 +57,10 @@
 		border2-bg:			rgba(144,144,144,0.5),
 
 		accent1: (
-			bg:				$blue,
+			bg:				$white,
 			fg-bold:		#ffffff,
-			fg:				mix($blue, #ffffff, 25%),
-			fg-light:		mix($blue, #ffffff, 40%),
+			fg:				mix($white, $blue, 25%),
+			fg-light:		mix($white, $blue, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),
@@ -70,8 +70,8 @@
 		accent2: (
 			bg:				$white,
 			fg-bold:		#ffffff,
-			fg:				mix($white, #ffffff, 25%),
-			fg-light:		mix($white, #ffffff, 40%),
+			fg:				mix($white, $blue, 25%),
+			fg-light:		mix($white, $blue, 40%),
 			border:			rgba(0,0,0,0.125),
 			border-bg:		rgba(255,255,255,0.075),
 			border2:		rgba(0,0,0,0.25),

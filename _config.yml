@@ -1,10 +1,9 @@
 # Site settings
-title: "Sabrina + Vittorio"
-description: |
-    Villa Claudia, Teano
+title: "Sander en Maud"
+description: 16 oktober 2021
 
-    28 Maggio 2019
-owner: Vittorio Monaco
+    
+owner: Sander Aernouts
 first_published: 2018
 email: vittorio.monaco1@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
